@@ -1,0 +1,37 @@
+.chip-item {
+  display: flex;
+  gap: 0.5em;
+  background-color: aquamarine;
+  border-radius: 10px;
+  padding: 0.5em;
+  margin: 0.5em;
+
+  .chip-item-left {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 10%;
+    height: 10%;
+    font-size: 30px;
+  }
+
+  .chip-item-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    height: 100%;
+    padding-left: 10px;
+    box-sizing: border-box;
+
+    .chip-item-right-button {
+      font-size: 24px;
+      font-weight: bold;
+
+      :hover {
+        cursor: pointer;
+        color: salmon;
+      }
+    }
+  }
+}

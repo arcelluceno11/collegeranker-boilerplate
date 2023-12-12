@@ -13,7 +13,6 @@ import { Link } from "react-router-dom";
 
 
 import CollegeView from './pages/CollegeView';
-import NavBar from './components/NavBar';
 
 function App() {
       return (
